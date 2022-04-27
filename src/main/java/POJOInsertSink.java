@@ -16,7 +16,7 @@ public class POJOInsertSink extends RichSinkFunction<Insert> {
 
     // 批量插入的下限，不应超过生产数据的批量（16384），
     // 设置较大时，插入效率更高，但插入频率降低不利于可视化，在可视化展示时可合理降低standard值，建议为512
-    final int standard = 64;
+    final int standard = 512;
 
     // 为每种POJO维护自己的PreparedStatement，事实上每个POJO都有自己的Sink，所以不会获得其他POJO的PreparedStatement，故使用Map没有意义，可删去。
     Map<Class<?>, PreparedStatement> stats = new ConcurrentHashMap<>();
