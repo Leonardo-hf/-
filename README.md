@@ -4,7 +4,7 @@
 
 1. 使用kafka接受助教数据，共得到17.37GB数据，时间跨度从2021-1-1到2022-3-8，经处理后数据以每行一个JSON的格式存储在本地的txt文件“bank2.txt”中，具体如下：
 
-   ![2022-04-26 22-34-35 的屏幕截图](流数据部分.assets/2022-04-26 22-34-35 的屏幕截图.png)
+   ![2022-04-26 22-34-35 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-26 22-34-35 的屏幕截图.png)
 
 2. 使用kafka创建topic并发送数据。
 
@@ -1223,23 +1223,23 @@ public class selectController {
 >
 >flink使用jar包见文件”assets/kafka-1.0-SNAPSHOT-jar-with-dependencies.jar”
 
-![2022-04-27 13-20-26 的屏幕截图](assets/2022-04-27 13-20-26 的屏幕截图.png)
+![2022-04-27 13-20-26 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-20-26 的屏幕截图.png)
 
-![2022-04-27 13-20-41 的屏幕截图](assets/2022-04-27 13-20-41 的屏幕截图.png)
+![2022-04-27 13-20-41 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-20-41 的屏幕截图.png)
 
 ### 3.2 kafka相关
 
 >此处贴出生产者生产数据时log线程的输出，可见生产者共生产25802860条数据，与clickhouse获得的总数据相一致；
 
-![2022-04-27 13-57-34 的屏幕截图](assets/2022-04-27 13-57-34 的屏幕截图.png)
+![2022-04-27 13-57-34 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-57-34 的屏幕截图.png)
 
 ### 3.3 clickhouse相关
 
 >select.sql执行结果，共收集到**25800205**条数据，此处以dm_v_tr_grwy_mx表格为例（数据量少）展示数据收集情况
 
-![2022-04-27 13-31-43 的屏幕截图](assets/2022-04-27 13-31-43 的屏幕截图.png)
+![2022-04-27 13-31-43 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-31-43 的屏幕截图.png)
 
-![2022-04-27 13-33-39 的屏幕截图](assets/2022-04-27 13-33-39 的屏幕截图.png)
+![2022-04-27 13-33-39 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-33-39 的屏幕截图.png)
 
 ### 3.4 可视化相关
 
@@ -1249,9 +1249,9 @@ public class selectController {
 >
 >图表的动态变化见视频“assets/view.mp4”，6.14到11.24日之间隔了几分钟，就没录制了；
 
-![2022-04-27 13-37-37 的屏幕截图](assets/2022-04-27 13-37-37 的屏幕截图.png)
+![2022-04-27 13-37-37 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-37-37 的屏幕截图.png)
 
-![2022-04-27 13-37-51 的屏幕截图](assets/2022-04-27 13-37-51 的屏幕截图.png)
+![2022-04-27 13-37-51 的屏幕截图](https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/2022-04-27 13-37-51 的屏幕截图.png)
 
-<video id="video" controls=""src="assets/view.mp4" preload="none">
+<video id="video" controls=""src="https://raw.githubusercontent.com/Leonardo-hf/DI-Homework-stage-2/master/assets/view.mp4" preload="none">
 
